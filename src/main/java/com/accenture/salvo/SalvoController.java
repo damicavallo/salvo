@@ -181,47 +181,33 @@ public class SalvoController {
         }
 
     private Map<String, Object> makeGameViewDTO(GamePlayer unGamePlayer) {
+        GamePlayer opponent= unGamePlayer.getGame().getGameplayers().stream().filter(gp->gp.getPlayer().getId()!=unGamePlayer.getPlayer().getId()).findFirst().get();
         Map<String, Object> dto = new LinkedHashMap<String, Object>();
         dto.put("id", unGamePlayer.getGame().getId());
         dto.put("created", unGamePlayer.getGame().getFechaCreacion());
         dto.put("gamePlayers",makeGamePlayerList(unGamePlayer.getGame().getGameplayers()));
         dto.put("ships",makeShipList(unGamePlayer.getShips()));
         dto.put("salvoes",makeSalvoesList(unGamePlayer));
-        //dto.put("hits",makehitsDTO(unGamePlayer.getSalvoes(),unGamePlayer));
+        dto.put("self",makeHitsList(opponent.getSalvoes(),unGamePlayer));
         return dto;
     }
 
 
-private void mostrarDamages(Set<Salvo> salvoes,GamePlayer unGamePlayer){
-        for (Salvo salvo : salvoes) {
-            Map<String, Object> dto = new LinkedHashMap<String, Object>();
+    private List<Object> makeHitsList(Set<Salvo> salvoes,GamePlayer gamePlayer){
+        return salvoes.stream().map(s->viewdamagedto(s,gamePlayer)).collect(Collectors.toList());
+
+    }
+    private Map<String, Object> viewdamagedto(Salvo salvo, GamePlayer gamePlayer) {
+        Map<String, Object> dto = new LinkedHashMap<String, Object>();
             dto.put("turn", salvo.getTurn());
-            dto.put("hitLocations", salvo.getLocations());
-            dto.put("damages", unGamePlayer.hitsRecibidos(salvo));
-          //  return dto;
-        }
-    }
-
-    private List<Object> makeSalvoHitList(Set<Salvo> salvos,GamePlayer ungp){
-
-        return salvos.stream().map(m->ungp.hitsRecibidos(m)).collect(Collectors.toList());
-
-    }
-
-   /* private Map<String,Object> makeHitsDTO(GamePlayer unGamePlayer){
-        Map<String,Object> dto= new LinkedHashMap<String, Object>();
-        dto.put("self",makeHitsListMySelfDTO(unGamePlayer));
-        dto.put("opponent", makeHitsListOnOpponent(unGamePlayer));
-        return dto;
+            dto.put("locations", salvo.getLocations());
+            dto.put("damages", salvo.hitsRecibidos(gamePlayer.getShips()));
+            dto.put("missed",0);
+            return dto;
     }
 
 
-    private Map<String,Object> funcion (){
-        game
 
-
-
-    }*/
 
     private Map<String, Object> makeGameDTO(Game game) {
         Map<String, Object> dto = new LinkedHashMap<String, Object>();

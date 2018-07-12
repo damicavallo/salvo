@@ -30,23 +30,6 @@ public class GamePlayer {
     public GamePlayer() { }
 
 
-    public  Map<String,Object> hitsRecibidos(Salvo unSalvo) {
-        Map<String, Object> dto = new LinkedHashMap<String, Object>();
-        for (Ship ship : ships) {
-            int hit = 0;
-            for (int i = 0; i < unSalvo.getLocations().size(); ++i) {
-                for (int j = 0; j < ship.getLocations().size(); ++j) {
-                    if (unSalvo.getLocations().get(i) == ship.getLocations().get(j)) {
-                        hit += 1;
-                    }
-                }
-            }
-            dto.put(ship.getTipoBarco() + "Hits", hit);
-        }
-        return dto;
-    }
-
-
 
 
     public void setListShips(List<Ship> listShips) {
