@@ -194,8 +194,12 @@ public class SalvoController {
 
 
     private List<Object> makeHitsList(Set<Salvo> salvoes,GamePlayer gamePlayer){
-        return salvoes.stream().map(s->viewdamagedto(s,gamePlayer)).collect(Collectors.toList());
-
+        List<Object> list= new ArrayList<>();
+        for (int i =0;i<salvoes.size();i++) {
+            int turno=1+i;
+        list.add(viewdamagedto(salvoes.stream().filter(s->s.getTurn()==turno).findFirst().get(),gamePlayer));
+        }
+        return list;
     }
     private Map<String, Object> viewdamagedto(Salvo salvo, GamePlayer gamePlayer) {
         Map<String, Object> dto = new LinkedHashMap<String, Object>();
@@ -205,6 +209,7 @@ public class SalvoController {
             dto.put("missed",0);
             return dto;
     }
+
 
 
 

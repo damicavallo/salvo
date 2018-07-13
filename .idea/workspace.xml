@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04ead833-e94c-4eba-9ff2-d8d1d669b6f0" name="Default" comment="" />
+    <list default="true" id="59945b18-24c7-46a2-9ba5-d09352a7badf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/salvo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,41 +62,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="GamePlayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="e#1315#1316#0" expanded="true" />
-                <element signature="e#1351#1352#0" expanded="true" />
-                <element signature="e#1407#1408#0" expanded="true" />
-                <element signature="e#1457#1458#0" expanded="true" />
-                <element signature="e#1633#1634#0" expanded="true" />
-                <element signature="e#1660#1661#0" expanded="true" />
-                <element signature="e#1693#1694#0" expanded="true" />
-                <element signature="e#1722#1723#0" expanded="true" />
-                <element signature="e#1749#1750#0" expanded="true" />
-                <element signature="e#1774#1775#0" expanded="true" />
-                <element signature="e#1809#1810#0" expanded="true" />
-                <element signature="e#1837#1838#0" expanded="true" />
-                <element signature="e#1882#1883#0" expanded="true" />
-                <element signature="e#1922#1923#0" expanded="true" />
-                <element signature="e#1960#1961#0" expanded="true" />
-                <element signature="e#1990#1991#0" expanded="true" />
-                <element signature="e#2039#2040#0" expanded="true" />
-                <element signature="e#2076#2077#0" expanded="true" />
-              </folding>
+            <state>
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -97,22 +75,23 @@
       <file leaf-file-name="Salvo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+            <state relative-caret-position="453">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
-                <element signature="e#626#643#0" expanded="true" />
-                <element signature="e#1667#1668#0" expanded="true" />
-                <element signature="e#1694#1695#0" expanded="true" />
-                <element signature="e#1735#1736#0" expanded="true" />
-                <element signature="e#1767#1768#0" expanded="true" />
-                <element signature="e#1804#1805#0" expanded="true" />
-                <element signature="e#1850#1851#0" expanded="true" />
-                <element signature="e#1891#1892#0" expanded="true" />
-                <element signature="e#1924#1925#0" expanded="true" />
-                <element signature="e#1980#1981#0" expanded="true" />
-                <element signature="e#2024#2025#0" expanded="true" />
-                <element signature="e#2062#2063#0" expanded="true" />
-                <element signature="e#2095#2096#0" expanded="true" />
+                <element signature="e#629#645#0" expanded="true" />
+                <element signature="e#705#721#0" expanded="true" />
+                <element signature="e#1895#1896#0" expanded="true" />
+                <element signature="e#1922#1923#0" expanded="true" />
+                <element signature="e#1963#1964#0" expanded="true" />
+                <element signature="e#1995#1996#0" expanded="true" />
+                <element signature="e#2032#2033#0" expanded="true" />
+                <element signature="e#2078#2079#0" expanded="true" />
+                <element signature="e#2119#2120#0" expanded="true" />
+                <element signature="e#2152#2153#0" expanded="true" />
+                <element signature="e#2208#2209#0" expanded="true" />
+                <element signature="e#2252#2253#0" expanded="true" />
+                <element signature="e#2290#2291#0" expanded="true" />
+                <element signature="e#2323#2324#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,75 +100,21 @@
       <file leaf-file-name="SalvoController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ship.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Ship.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="232">
+              <caret line="196" column="22" lean-forward="true" selection-start-line="196" selection-end-line="197" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>table</find>
-      <find>col</find>
-      <find>container</find>
-      <find>row</find>
-      <find>username</find>
-      <find>password</find>
-      <find>login</find>
-      <find>current</find>
-      <find>name</find>
-      <find>players</find>
-      <find>pwd</find>
-      <find>auto</find>
-      <find>aut</find>
-      <find>/games</find>
-      <find>creat</find>
-      <find>g</find>
-      <find>gp</find>
-      <find>long</find>
-      <find>score</find>
-      <find>ship</find>
-      <find>type</find>
-      <find>ships</find>
-      <find>equa</find>
-      <find>salvo</find>
-      <find>t</find>
-      <find>turn</find>
-      <find>turno</find>
-      <find>equals</find>
-      <find>location</find>
-      <find>makemap</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/salvo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\mindhub\gradle-4.7\wrapper\dists\gradle-3.5.1-bin\5aglzaqc99i3lll5iwkbm96su\gradle-3.5.1" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\Damian\.gradle\wrapper\dists\gradle-3.5.1-bin\5aglzaqc99i3lll5iwkbm96su\gradle-3.5.1" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -420,7 +345,6 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6125251905314" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1641530604" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="3603921981" />
@@ -439,16 +363,16 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$PROJECT_DIR$/../../gradle-4.7/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.15.BUILD-SNAPSHOT/c374235590d4a8cba522275e838cb1e88484c337/spring-boot-gradle-plugin-1.5.15.BUILD-SNAPSHOT-sources.jar" />
-                            <option value="$PROJECT_DIR$/../../gradle-4.7/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.15.BUILD-SNAPSHOT/ec0f615cbbd5f28e5a84753678aec95584a5c060/spring-boot-gradle-plugin-1.5.15.BUILD-SNAPSHOT.jar" />
-                            <option value="$PROJECT_DIR$/../../gradle-4.7/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.15.BUILD-SNAPSHOT/bb50d88a8e9c606ed17fad925e209211b6751feb/spring-boot-loader-tools-1.5.15.BUILD-SNAPSHOT-sources.jar" />
-                            <option value="$PROJECT_DIR$/../../gradle-4.7/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.15.BUILD-SNAPSHOT/b1652e5ec25d1cdab2eda3e40f5d0b628f395a61/spring-boot-loader-tools-1.5.15.BUILD-SNAPSHOT.jar" />
-                            <option value="$PROJECT_DIR$/../../gradle-4.7/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/e9f2761e13da4228793ee5fcaa983889e68c4c61/dependency-management-plugin-1.0.5.RELEASE-sources.jar" />
-                            <option value="$PROJECT_DIR$/../../gradle-4.7/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/3589987a66349bdc10b18c6c4a5463ffd084c908/dependency-management-plugin-1.0.5.RELEASE.jar" />
-                            <option value="$PROJECT_DIR$/../../gradle-4.7/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.18.RELEASE/6ce871ab6fbcc92da74aaa53861a33828b20e346/spring-core-4.3.18.RELEASE-sources.jar" />
-                            <option value="$PROJECT_DIR$/../../gradle-4.7/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.18.RELEASE/4acbce682c3dfe38181d57b7e0792e2cc21e4f77/spring-core-4.3.18.RELEASE.jar" />
-                            <option value="$PROJECT_DIR$/../../gradle-4.7/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
-                            <option value="$PROJECT_DIR$/../../gradle-4.7/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.15.BUILD-SNAPSHOT/17e1ab1cea74150867a594d8a5f253bdfa5cbb30/spring-boot-gradle-plugin-1.5.15.BUILD-SNAPSHOT-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.15.BUILD-SNAPSHOT/ce910469a5cac11be2dc1fce8e89b5ce48fe7acc/spring-boot-gradle-plugin-1.5.15.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.15.BUILD-SNAPSHOT/4ac43d3ec65834ff566a117690cb919712f0bcb4/spring-boot-loader-tools-1.5.15.BUILD-SNAPSHOT-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.15.BUILD-SNAPSHOT/4c71c39fde54a2579313f2d6b757da894e101159/spring-boot-loader-tools-1.5.15.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/e9f2761e13da4228793ee5fcaa983889e68c4c61/dependency-management-plugin-1.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/3589987a66349bdc10b18c6c4a5463ffd084c908/dependency-management-plugin-1.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.18.RELEASE/6ce871ab6fbcc92da74aaa53861a33828b20e346/spring-core-4.3.18.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.18.RELEASE/4acbce682c3dfe38181d57b7e0792e2cc21e4f77/spring-core-4.3.18.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -542,47 +466,14 @@
     <option name="projectSyncType">
       <map>
         <entry key="$USER_HOME$/Desktop/salvo-master" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/../../workspace 2/salvo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../salvo" value="PREVIEW" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/GameRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/ShipRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/js/game.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap-grid.min.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/js/game_2.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/ScoreRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/Score.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/Game.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/js/games_2.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap.min.css.map" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/css/fondo.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/games_2.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/css/games.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/css/game.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/game_2.html" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/PlayerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/games_3.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/js/games_4.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/game.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/js/games.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/Ship.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java" />
       </list>
@@ -594,42 +485,42 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="salvo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="salvo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salvo2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="salvo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="salvo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salvo2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="salvo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="salvo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salvo2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="salvo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="salvo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salvo2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="salvo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="salvo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salvo2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -639,22 +530,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\mindhub\workspace\salvo\src\main\resources\static" />
-      <recent name="C:\mindhub\workspace\salvo\src\main\resources\static\web\css" />
-      <recent name="C:\mindhub\workspace\salvo\src\main\resources\static\web" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -668,11 +544,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.salvo [bootRun]">
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="C:/Mindhub/WorkSpace/Salvo [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="salvo2 [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -684,74 +560,6 @@
         <option name="taskNames">
           <list>
             <option value="bootRun" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-    </configuration>
-    <configuration name="salvo [bootRun] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="bootRun" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-    </configuration>
-    <configuration name="salvo [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="bootRun" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-    </configuration>
-    <configuration name="salvo [build] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-    </configuration>
-    <configuration name="salvo [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="classes" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -795,20 +603,9 @@
       <properties />
       <listeners />
     </configuration>
-    <list>
-      <item itemvalue="Gradle.salvo [bootRun]" />
-      <item itemvalue="Gradle.salvo [classes]" />
-      <item itemvalue="Gradle.salvo [build] (1)" />
-      <item itemvalue="Gradle.salvo [bootRun] (1)" />
-      <item itemvalue="Gradle.C:/Mindhub/WorkSpace/Salvo [bootRun]" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.C:/Mindhub/WorkSpace/Salvo [bootRun]" />
-        <item itemvalue="Gradle.salvo [bootRun] (1)" />
-        <item itemvalue="Gradle.salvo [build] (1)" />
-        <item itemvalue="Gradle.salvo [bootRun]" />
-        <item itemvalue="Gradle.salvo [classes]" />
+        <item itemvalue="Gradle.salvo2 [bootRun]" />
       </list>
     </recent_temporary>
   </component>
@@ -817,214 +614,83 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="04ead833-e94c-4eba-9ff2-d8d1d669b6f0" name="Default" comment="" />
-      <created>1529985370066</created>
+      <changelist id="59945b18-24c7-46a2-9ba5-d09352a7badf" name="Default" comment="" />
+      <created>1531455424020</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1529985370066</updated>
+      <updated>1531455424020</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50073206" side_tool="true" weight="0.31160572" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.3163752" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16764276" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.1420205" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299435" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.209375" />
+      <window_info anchor="bottom" id="Build" weight="0.21355931" />
+      <window_info anchor="right" id="Gradle" visible="true" weight="0.13515624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Build" order="9" visible="true" weight="0.3529412" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-      <path value="$PROJECT_DIR$/salvo" />
-    </ignored-roots>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="9" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayerRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap-reboot.css.map" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap-reboot.min.css.map" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap-reboot.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/fondo.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/css/fondo.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap.min.css.map" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/js/games_2.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap-reboot.min.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap-grid.css.map" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap.min.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap-grid.min.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap-grid.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/css/game.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/css/games.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap.css.map" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/pusheeen1.gif" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/cutedog.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/css/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/game_2.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/js/game_2.js" />
-    <entry file="file://$PROJECT_DIR$/.gitattributes" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/games_3.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/games_2.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/js/games_3.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/game.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/js/games_4.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/js/shipPlacement.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/PlayerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/js/games.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/games.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/game.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/manager.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/manager.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Score.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/ShipRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/ScoreRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/js/interactsalvo.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/js/game.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1407#1408#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1722#1723#0" expanded="true" />
-            <element signature="e#1749#1750#0" expanded="true" />
-            <element signature="e#1774#1775#0" expanded="true" />
-            <element signature="e#1809#1810#0" expanded="true" />
-            <element signature="e#1837#1838#0" expanded="true" />
-            <element signature="e#1882#1883#0" expanded="true" />
-            <element signature="e#1922#1923#0" expanded="true" />
-            <element signature="e#1960#1961#0" expanded="true" />
-            <element signature="e#1990#1991#0" expanded="true" />
-            <element signature="e#2039#2040#0" expanded="true" />
-            <element signature="e#2076#2077#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Ship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state>
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="232">
+          <caret line="196" column="22" lean-forward="true" selection-start-line="196" selection-end-line="197" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        <state relative-caret-position="453">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
           <folding>
-            <element signature="e#626#643#0" expanded="true" />
-            <element signature="e#1667#1668#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1767#1768#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
-            <element signature="e#1850#1851#0" expanded="true" />
-            <element signature="e#1891#1892#0" expanded="true" />
-            <element signature="e#1924#1925#0" expanded="true" />
-            <element signature="e#1980#1981#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
-            <element signature="e#2062#2063#0" expanded="true" />
-            <element signature="e#2095#2096#0" expanded="true" />
+            <element signature="e#629#645#0" expanded="true" />
+            <element signature="e#705#721#0" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
+            <element signature="e#1922#1923#0" expanded="true" />
+            <element signature="e#1963#1964#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="e#2078#2079#0" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2152#2153#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#2252#2253#0" expanded="true" />
+            <element signature="e#2290#2291#0" expanded="true" />
+            <element signature="e#2323#2324#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1032,91 +698,9 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>salvo</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

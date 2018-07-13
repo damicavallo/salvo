@@ -24,10 +24,11 @@ public class Salvo {
     public Salvo(){}
 
     public Map<String,Integer> hitsRecibidos(Set<Ship> ships) {
-        Map<String, Integer> dto = new LinkedHashMap<String, Integer>();
-        int loop=0;
-        int hitanterior=0;
-        for (Ship ship : ships) {
+        Map<String,Integer> dto = new LinkedHashMap<String,Integer>();
+        Map<String,Integer> dto2 = new LinkedHashMap<String,Integer>();
+        List<Object> list= new ArrayList<>();
+
+        for (Ship ship: ships){
             int hit = 0;
 
             for (int i = 0; i < this.getLocations().size(); ++i) {
@@ -36,19 +37,25 @@ public class Salvo {
                         hit += 1;
                     }
                 }
-            }   if(loop==0){
+            }
+            int loop=0;
+            if (loop==0){
+                int hitAnterior=0;
                 dto.put(ship.getTipoBarco() + "Hits", hit);
-                dto.put(ship.getTipoBarco(),hitanterior+hit);
-               }
-                else{
-                hitAnterior=hit;
-                dto.put(ship.getTipoBarco() + "Hits", hit);
-                dto.put(ship.getTipoBarco(),hitAnterior+hit);}
+                dto.put(ship.getTipoBarco(),hit);
+                list.add(hit);
+            loop++;
+            }
 
+            else{
+                int k=0;
+                int hitAnterior= (int) list.get(k);
+                dto.put(ship.getTipoBarco() + "Hits", hit);
+                dto.put(ship.getTipoBarco(),hitAnterior);
+                k++;}
         }
 
         return dto;
-        loop++;
     }
 
 
