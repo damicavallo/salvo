@@ -1,7 +1,6 @@
 package com.accenture.salvo;
 
 import javax.persistence.*;
-import javax.persistence.criteria.CriteriaBuilder;
 import java.util.*;
 
 @Entity
@@ -23,41 +22,37 @@ public class Salvo {
 
     public Salvo(){}
 
-    public Map<String,Integer> hitsRecibidos(Set<Ship> ships) {
-        Map<String,Integer> dto = new LinkedHashMap<String,Integer>();
-        Map<String,Integer> dto2 = new LinkedHashMap<String,Integer>();
-        List<Object> list= new ArrayList<>();
+    public int hitsRecibidos(Ship ship) {
 
-        for (Ship ship: ships){
-            int hit = 0;
-
-            for (int i = 0; i < this.getLocations().size(); ++i) {
+        int hit = 0;
+        for (int i = 0; i < this.getLocations().size(); ++i) {
                 for (int j = 0; j < ship.getLocations().size(); ++j) {
                     if (this.getLocations().get(i) == ship.getLocations().get(j)) {
                         hit += 1;
                     }
                 }
             }
-            int loop=0;
-            if (loop==0){
-                int hitAnterior=0;
-                dto.put(ship.getTipoBarco() + "Hits", hit);
-                dto.put(ship.getTipoBarco(),hit);
-                list.add(hit);
-            loop++;
-            }
+        return hit;
 
-            else{
-                int k=0;
-                int hitAnterior= (int) list.get(k);
-                dto.put(ship.getTipoBarco() + "Hits", hit);
-                dto.put(ship.getTipoBarco(),hitAnterior);
-                k++;}
-        }
-
-        return dto;
     }
 
+
+    public int hitsMissed(Set<Ship> ships) {
+        List<String> hitLocations = new ArrayList<>();
+        int missed=0;
+        for (Ship ship:ships) {
+
+            for (int i = 0; i < this.getLocations().size(); ++i) {
+                for (int j = 0; j < ship.getLocations().size(); ++j) {
+                    if (this.getLocations().get(i) == ship.getLocations().get(j)) {
+                        hitLocations.add(getLocations().get(i));
+                    }
+                }
+                missed=this.locations.size()-hitLocations.size();
+            }
+        }
+        return missed;
+    }
 
 
 

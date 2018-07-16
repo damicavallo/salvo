@@ -11,6 +11,7 @@ public class GamePlayer {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     private Date fechaCreacion;
+    private String gameState;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name="player_id")
@@ -81,7 +82,13 @@ public class GamePlayer {
     public Score getScoreDeJuego(){
         return player.getScoreUnGame(game);}
 
+    public String getGameState() {
+        return gameState;
+    }
 
+    public void setGameState(String gameState) {
+        this.gameState = gameState;
+    }
 }
 
 
