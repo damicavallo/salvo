@@ -234,7 +234,7 @@ function showSelf (gamePlayerData) {
     });
 
     gamePlayerData.hits.opponent.forEach(function(playTurn) {
-        playTurn.hitLocations.forEach(function (hitCell) {
+        playTurn.Locations.forEach(function (hitCell) {
             cellID = "#" + hitCell;
             $(cellID).addClass("hitCell");
         });

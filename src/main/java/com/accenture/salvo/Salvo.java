@@ -66,6 +66,7 @@ public class Salvo {
         return locations;
     }
 
+
     public long getGamePlayerId() {
         return this.gamePlayer.getId();
     }
@@ -80,6 +81,10 @@ public class Salvo {
 
     public void setTurn(int turno) {
         this.turn = turno;
+    }
+
+    public void setLocations(List<String> locations) {
+        this.locations = locations;
     }
 }
 

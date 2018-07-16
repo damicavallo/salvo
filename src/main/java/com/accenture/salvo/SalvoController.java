@@ -146,7 +146,7 @@ public class SalvoController {
     public ResponseEntity<Map<String, Object>> setSalvoes(@PathVariable Long gamePlayerID, @RequestBody Salvo salvo, Authentication authentication) {
 
         GamePlayer gamePlayer = gamePlayerRepository.findOne(gamePlayerID);
-        salvo.setGamePlayer(gamePlayer);
+        salvo.setTurn(gamePlayerRepository.findOne(gamePlayerID).getSalvoes().size()+1);
 
         if ((isGuest(authentication))|| (gamePlayer==null)|| ((gamePlayer!=null) && (gamePlayer.getPlayer().getUserName()!= authentication.getName()))) {
             return new ResponseEntity<>(makeMap("error", "Failed to add salvoes"), HttpStatus.UNAUTHORIZED);
@@ -155,8 +155,8 @@ public class SalvoController {
             return new ResponseEntity<>(makeMap("error", "You already placed the salvoes in that turn"), HttpStatus.FORBIDDEN);
         }
         else
-            salvoRepository.save(salvo);
-            gamePlayer.getSalvoes().add(salvo);
+
+            gamePlayer.addSalvo(salvo);
             gamePlayerRepository.save(gamePlayer);
             return new ResponseEntity<>(makeMap("success","Salvo were placed"), HttpStatus.CREATED);
 

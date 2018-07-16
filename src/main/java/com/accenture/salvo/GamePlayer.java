@@ -21,10 +21,10 @@ public class GamePlayer {
     @JoinColumn(name="game_id")
     private Game game;
 
-    @OneToMany(mappedBy="gamePlayer", fetch=FetchType.EAGER)
+    @OneToMany(mappedBy="gamePlayer", fetch=FetchType.EAGER,cascade = CascadeType.ALL)
     Set<Ship> ships = new HashSet<>();
 
-    @OneToMany(mappedBy="gamePlayer", fetch=FetchType.EAGER)
+    @OneToMany(mappedBy="gamePlayer", fetch=FetchType.EAGER,cascade = CascadeType.ALL)
     Set<Salvo> salvoes = new HashSet<>();
 
 
@@ -77,6 +77,12 @@ public class GamePlayer {
 
     public void setSalvoes(Set<Salvo> salvos) {
         this.salvoes = salvos;
+    }
+
+    public void addSalvo(Salvo salvo){
+        salvo.setGamePlayer(this);
+        this.salvoes.add(salvo);
+
     }
 
     public Score getScoreDeJuego(){
