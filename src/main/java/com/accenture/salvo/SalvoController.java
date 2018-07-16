@@ -42,7 +42,7 @@ public class SalvoController {
 
     @RequestMapping("/games")
     public Map<String,Object> getGames(Authentication authentication){
-            Map<String, Object> dto = new LinkedHashMap<String, Object>();
+            Map<String, Object> dto = new LinkedHashMap<>();
             if (isGuest(authentication)){
             dto.put("player", "Guest");}
             else{ dto.put("player",
@@ -177,19 +177,19 @@ public class SalvoController {
     }
 
     private Map<String,Object> makePlayerGuest(Player player){
-        Map<String,Object> dto = new LinkedHashMap<String, Object>();
+        Map<String,Object> dto = new LinkedHashMap<>();
         dto.put("id",player.getId());
         dto.put("email",player.getUserName());
         return dto;
     }
     private Map<String, Object> makeScorePlayerDTO(Player player) {
-        Map<String, Object> dto = new LinkedHashMap<String, Object>();
+        Map<String, Object> dto = new LinkedHashMap<>();
         dto.put("name", player.getUserName());
         dto.put("score", makeScoreOfPlayer(player));
         return dto;
     }
     private Map<String, Object> makeScoreOfPlayer(Player player) {
-            Map<String, Object> dto = new LinkedHashMap<String, Object>();
+            Map<String, Object> dto = new LinkedHashMap<>();
             dto.put("total",player.getTotalScore());
             dto.put("won",player.getTotalWonLostTied(1.0));
             dto.put("lost",player.getTotalWonLostTied(0.0));
@@ -199,7 +199,7 @@ public class SalvoController {
 
     private Map<String, Object> makeGameViewDTO(GamePlayer unGamePlayer) {
         GamePlayer opponent= unGamePlayer.getGame().getGameplayers().stream().filter(gp->gp.getPlayer().getId()!=unGamePlayer.getPlayer().getId()).findFirst().orElse(null);
-        Map<String, Object> dto = new LinkedHashMap<String, Object>();
+        Map<String, Object> dto = new LinkedHashMap<>();
         dto.put("id", unGamePlayer.getGame().getId());
         dto.put("created", unGamePlayer.getGame().getFechaCreacion());
         dto.put("gameState","PLAY");
@@ -212,7 +212,7 @@ public class SalvoController {
 
 
     private Map<String, Object> makeHitsListPLayers(GamePlayer gamePlayer, GamePlayer opponent){
-        Map<String, Object> dto = new LinkedHashMap<String, Object>();
+        Map<String, Object> dto = new LinkedHashMap<>();
         dto.put("self",makeHits(opponent.getSalvoes(),gamePlayer));
         dto.put("opponent",makeHits(gamePlayer.getSalvoes(),opponent));
         return dto;
@@ -223,7 +223,7 @@ public class SalvoController {
         List<Object> hitsDTO= new ArrayList<>();
         List<String> totalHits = new ArrayList<>();
         for (int i =0;i<salvoes.size();i++) {
-            Map<String, Object> dto = new LinkedHashMap<String, Object>();
+            Map<String, Object> dto = new LinkedHashMap<>();
             int turno=1+i;
             Salvo salvo=salvoes.stream().filter(s->s.getTurn()==turno).findFirst().get();
             for (String hit : salvo.getLocations()) {
@@ -245,8 +245,8 @@ public class SalvoController {
 
 
     private Map<String, Object> viewdamagedto(Salvo salvo, GamePlayer gamePlayer,List<String> totalHits) {
-        Map<String, Object> dto = new LinkedHashMap<String, Object>();
-        List<Ship> listShip= new ArrayList<Ship>();
+        Map<String, Object> dto = new LinkedHashMap<>();
+
         for (Ship ship:gamePlayer.getShips()) {
 
             dto.put(ship.getTipoBarco()+"Hits",salvo.hits(ship));
@@ -256,14 +256,14 @@ public class SalvoController {
     }
 
     private long countHits(List<String> list, String type) {
-        long counted = list.stream().filter(g -> g.equals(type)).count();
-        return counted;
+        return list.stream().filter(g -> g.equals(type)).count();
+
     }
 
 
 
     private Map<String, Object> makeGameDTO(Game game) {
-        Map<String, Object> dto = new LinkedHashMap<String, Object>();
+        Map<String, Object> dto = new LinkedHashMap<>();
         dto.put("id", game.getId());
         dto.put("created", game.getFechaCreacion());
         dto.put("gamePlayers",makeGamePlayerList(game.getGameplayers()));
@@ -290,7 +290,7 @@ public class SalvoController {
     }
 
     private Map<String,Object> makeScoreDTO(Score puntaje){
-        Map<String, Object> dto = new LinkedHashMap<String, Object>();
+        Map<String, Object> dto = new LinkedHashMap<>();
         dto.put("playerID",puntaje.getPlayer().getId());
         dto.put("score",puntaje.getScore());
         dto.put("finishDate",puntaje.getFinishDate());
@@ -299,27 +299,27 @@ public class SalvoController {
 
 
     private Map<String, Object> makeGamePlayerDTO(GamePlayer gameplayer) {
-        Map<String, Object> dto = new LinkedHashMap<String, Object>();
+        Map<String, Object> dto = new LinkedHashMap<>();
         dto.put("id",gameplayer.getId());
         dto.put("player",makePlayerDTO(gameplayer.getPlayer()));
         dto.put("joindate",gameplayer.getFechaCreacion());
         return dto;
     }
     private Map<String, Object> makePlayerDTO(Player player) {
-        Map<String, Object> dto = new LinkedHashMap<String, Object>();
+        Map<String, Object> dto = new LinkedHashMap<>();
         dto.put("id", player.getId());
         dto.put("email", player.getUserName());
         return dto;
     }
     private Map<String, Object> makeShipDTO(Ship ship){
-        Map<String,Object> dto = new LinkedHashMap<String,Object>();
+        Map<String,Object> dto = new LinkedHashMap<>();
         dto.put("type",ship.getTipoBarco());
         dto.put("locations",ship.getLocations());
         return dto;
     }
 
     private Map<String, Object> makeSalvoDTO(Salvo salvo){
-        Map<String,Object> dto = new LinkedHashMap<String,Object>();
+        Map<String,Object> dto = new LinkedHashMap<>();
         dto.put("turn",salvo.getTurn());
         dto.put("player",salvo.getGamePlayerId());
         dto.put("locations",salvo.getLocations());

@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59945b18-24c7-46a2-9ba5-d09352a7badf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -68,25 +64,8 @@
       <file leaf-file-name="SalvoController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="227" column="89" lean-forward="true" selection-start-line="227" selection-start-column="89" selection-end-line="227" selection-end-column="89" />
-              <folding>
-                <element signature="e#1175#1191#0" expanded="true" />
-                <element signature="e#8127#8143#0" expanded="true" />
-                <element signature="e#8377#8393#0" expanded="true" />
-                <element signature="e#8645#8661#0" expanded="true" />
-                <element signature="e#9227#9243#0" expanded="true" />
-                <element signature="e#9889#9905#0" expanded="true" />
-                <element signature="e#10301#10317#0" expanded="true" />
-                <element signature="e#11368#11384#0" expanded="true" />
-                <element signature="e#10998#11004#0" expanded="true" />
-                <element signature="e#12218#12234#0" expanded="true" />
-                <element signature="e#13437#13453#0" expanded="true" />
-                <element signature="e#13768#13784#0" expanded="true" />
-                <element signature="e#14094#14110#0" expanded="true" />
-                <element signature="e#14333#14348#0" expanded="true" />
-                <element signature="e#14583#14598#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-544">
+              <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -496,7 +475,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -548,30 +527,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="salvo" type="462c0819:PsiDirectoryNode" />
               <item name="SalvoApplication.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="salvo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvo2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salvo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvo2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salvo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salvo2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -696,7 +651,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -710,7 +664,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20937042" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20937042" />
       <window_info anchor="right" id="Gradle" order="3" sideWeight="0.498708" visible="true" weight="0.13469985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -742,23 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4335">
           <caret line="255" selection-start-line="255" selection-end-line="255" />
-          <folding>
-            <element signature="e#1175#1191#0" expanded="true" />
-            <element signature="e#8127#8143#0" expanded="true" />
-            <element signature="e#8377#8393#0" expanded="true" />
-            <element signature="e#8645#8661#0" expanded="true" />
-            <element signature="e#9227#9243#0" expanded="true" />
-            <element signature="e#9889#9905#0" expanded="true" />
-            <element signature="e#10301#10317#0" expanded="true" />
-            <element signature="e#11368#11384#0" expanded="true" />
-            <element signature="e#10998#11004#0" expanded="true" />
-            <element signature="e#12218#12234#0" expanded="true" />
-            <element signature="e#13437#13453#0" expanded="true" />
-            <element signature="e#13768#13784#0" expanded="true" />
-            <element signature="e#14094#14110#0" expanded="true" />
-            <element signature="e#14333#14348#0" expanded="true" />
-            <element signature="e#14583#14598#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,23 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3621">
           <caret line="213" column="32" selection-start-line="213" selection-start-column="32" selection-end-line="213" selection-end-column="32" />
-          <folding>
-            <element signature="e#1175#1191#0" expanded="true" />
-            <element signature="e#8127#8143#0" expanded="true" />
-            <element signature="e#8377#8393#0" expanded="true" />
-            <element signature="e#8645#8661#0" expanded="true" />
-            <element signature="e#9227#9243#0" expanded="true" />
-            <element signature="e#9889#9905#0" expanded="true" />
-            <element signature="e#10301#10317#0" expanded="true" />
-            <element signature="e#11368#11384#0" expanded="true" />
-            <element signature="e#10998#11004#0" expanded="true" />
-            <element signature="e#12218#12234#0" expanded="true" />
-            <element signature="e#13437#13453#0" expanded="true" />
-            <element signature="e#13768#13784#0" expanded="true" />
-            <element signature="e#14094#14110#0" expanded="true" />
-            <element signature="e#14333#14348#0" expanded="true" />
-            <element signature="e#14583#14598#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,23 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3179">
           <caret line="196" column="22" selection-start-line="196" selection-end-line="197" />
-          <folding>
-            <element signature="e#1175#1191#0" expanded="true" />
-            <element signature="e#8127#8143#0" expanded="true" />
-            <element signature="e#8377#8393#0" expanded="true" />
-            <element signature="e#8645#8661#0" expanded="true" />
-            <element signature="e#9227#9243#0" expanded="true" />
-            <element signature="e#9889#9905#0" expanded="true" />
-            <element signature="e#10301#10317#0" expanded="true" />
-            <element signature="e#11368#11384#0" expanded="true" />
-            <element signature="e#10998#11004#0" expanded="true" />
-            <element signature="e#12218#12234#0" expanded="true" />
-            <element signature="e#13437#13453#0" expanded="true" />
-            <element signature="e#13768#13784#0" expanded="true" />
-            <element signature="e#14094#14110#0" expanded="true" />
-            <element signature="e#14333#14348#0" expanded="true" />
-            <element signature="e#14583#14598#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,25 +954,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="227" column="89" lean-forward="true" selection-start-line="227" selection-start-column="89" selection-end-line="227" selection-end-column="89" />
-          <folding>
-            <element signature="e#1175#1191#0" expanded="true" />
-            <element signature="e#8127#8143#0" expanded="true" />
-            <element signature="e#8377#8393#0" expanded="true" />
-            <element signature="e#8645#8661#0" expanded="true" />
-            <element signature="e#9227#9243#0" expanded="true" />
-            <element signature="e#9889#9905#0" expanded="true" />
-            <element signature="e#10301#10317#0" expanded="true" />
-            <element signature="e#11368#11384#0" expanded="true" />
-            <element signature="e#10998#11004#0" expanded="true" />
-            <element signature="e#12218#12234#0" expanded="true" />
-            <element signature="e#13437#13453#0" expanded="true" />
-            <element signature="e#13768#13784#0" expanded="true" />
-            <element signature="e#14094#14110#0" expanded="true" />
-            <element signature="e#14333#14348#0" expanded="true" />
-            <element signature="e#14583#14598#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-544">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
         </state>
       </provider>
     </entry>
