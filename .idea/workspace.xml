@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59945b18-24c7-46a2-9ba5-d09352a7badf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -16,6 +17,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/salvo2$salvo2__bootRun_.ic" NAME="salvo2 [bootRun] Coverage Results" MODIFIED="1531749675370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -61,49 +65,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GamePlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-              <folding>
-                <element signature="e#1838#1839#0" expanded="true" />
-                <element signature="e#1870#1871#0" expanded="true" />
-                <element signature="e#1920#1921#0" expanded="true" />
-                <element signature="e#1962#1963#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Salvo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-              <folding>
-                <element signature="e#1735#1736#0" expanded="true" />
-                <element signature="e#1762#1763#0" expanded="true" />
-                <element signature="e#1803#1804#0" expanded="true" />
-                <element signature="e#1835#1836#0" expanded="true" />
-                <element signature="e#1872#1873#0" expanded="true" />
-                <element signature="e#1918#1919#0" expanded="true" />
-                <element signature="e#1959#1960#0" expanded="true" />
-                <element signature="e#1992#1993#0" expanded="true" />
-                <element signature="e#2048#2049#0" expanded="true" />
-                <element signature="e#2092#2093#0" expanded="true" />
-                <element signature="e#2130#2131#0" expanded="true" />
-                <element signature="e#2163#2164#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SalvoController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="210" column="5" lean-forward="true" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="227" column="89" lean-forward="true" selection-start-line="227" selection-start-column="89" selection-end-line="227" selection-end-column="89" />
+              <folding>
+                <element signature="e#1175#1191#0" expanded="true" />
+                <element signature="e#8127#8143#0" expanded="true" />
+                <element signature="e#8377#8393#0" expanded="true" />
+                <element signature="e#8645#8661#0" expanded="true" />
+                <element signature="e#9227#9243#0" expanded="true" />
+                <element signature="e#9889#9905#0" expanded="true" />
+                <element signature="e#10301#10317#0" expanded="true" />
+                <element signature="e#11368#11384#0" expanded="true" />
+                <element signature="e#10998#11004#0" expanded="true" />
+                <element signature="e#12218#12234#0" expanded="true" />
+                <element signature="e#13437#13453#0" expanded="true" />
+                <element signature="e#13768#13784#0" expanded="true" />
+                <element signature="e#14094#14110#0" expanded="true" />
+                <element signature="e#14333#14348#0" expanded="true" />
+                <element signature="e#14583#14598#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Optional.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../JDK/src.zip!/java/util/Optional.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="134" selection-start-line="134" selection-end-line="134" />
             </state>
           </provider>
         </entry>
@@ -111,13 +103,24 @@
       <file leaf-file-name="SalvoApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="37" column="56" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="56" />
+            <state relative-caret-position="1428">
+              <caret line="107" column="43" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="43" />
+              <folding>
+                <element signature="e#1704#1705#0" expanded="true" />
+                <element signature="e#1762#1763#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>carrierhits</find>
+      <find>barc</find>
+      <find>ship.g</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -356,7 +359,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6125821514009" />
+        <entry key="$PROJECT_DIR$" value="6126072423924" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1641530604" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="3603921981" />
@@ -486,13 +489,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -503,9 +507,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -548,10 +549,37 @@
               <item name="salvo" type="462c0819:PsiDirectoryNode" />
               <item name="SalvoApplication.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
+            <path>
+              <item name="salvo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salvo2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salvo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salvo2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salvo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salvo2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -566,7 +594,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.salvo2 [bootRun]">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -582,6 +610,23 @@
         <option name="taskNames">
           <list>
             <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="salvo2 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -625,9 +670,14 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Gradle.salvo2 [bootRun]" />
+      <item itemvalue="Gradle.salvo2 [clean]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.salvo2 [bootRun]" />
+        <item itemvalue="Gradle.salvo2 [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -645,51 +695,208 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3290938" />
       <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4562798" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299435" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.209375" />
-      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.13515624" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20937042" />
+      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.498708" visible="true" weight="0.13469985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.501292" side_tool="true" weight="0.13469985" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.21355931" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4335">
+          <caret line="255" selection-start-line="255" selection-end-line="255" />
+          <folding>
+            <element signature="e#1175#1191#0" expanded="true" />
+            <element signature="e#8127#8143#0" expanded="true" />
+            <element signature="e#8377#8393#0" expanded="true" />
+            <element signature="e#8645#8661#0" expanded="true" />
+            <element signature="e#9227#9243#0" expanded="true" />
+            <element signature="e#9889#9905#0" expanded="true" />
+            <element signature="e#10301#10317#0" expanded="true" />
+            <element signature="e#11368#11384#0" expanded="true" />
+            <element signature="e#10998#11004#0" expanded="true" />
+            <element signature="e#12218#12234#0" expanded="true" />
+            <element signature="e#13437#13453#0" expanded="true" />
+            <element signature="e#13768#13784#0" expanded="true" />
+            <element signature="e#14094#14110#0" expanded="true" />
+            <element signature="e#14333#14348#0" expanded="true" />
+            <element signature="e#14583#14598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="168" column="14" selection-start-line="168" selection-start-column="14" selection-end-line="168" selection-end-column="14" />
+          <folding>
+            <element signature="e#1704#1705#0" expanded="true" />
+            <element signature="e#1762#1763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="374">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="e#1838#1839#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-            <element signature="e#1920#1921#0" expanded="true" />
-            <element signature="e#1962#1963#0" expanded="true" />
+            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3621">
+          <caret line="213" column="32" selection-start-line="213" selection-start-column="32" selection-end-line="213" selection-end-column="32" />
+          <folding>
+            <element signature="e#1175#1191#0" expanded="true" />
+            <element signature="e#8127#8143#0" expanded="true" />
+            <element signature="e#8377#8393#0" expanded="true" />
+            <element signature="e#8645#8661#0" expanded="true" />
+            <element signature="e#9227#9243#0" expanded="true" />
+            <element signature="e#9889#9905#0" expanded="true" />
+            <element signature="e#10301#10317#0" expanded="true" />
+            <element signature="e#11368#11384#0" expanded="true" />
+            <element signature="e#10998#11004#0" expanded="true" />
+            <element signature="e#12218#12234#0" expanded="true" />
+            <element signature="e#13437#13453#0" expanded="true" />
+            <element signature="e#13768#13784#0" expanded="true" />
+            <element signature="e#14094#14110#0" expanded="true" />
+            <element signature="e#14333#14348#0" expanded="true" />
+            <element signature="e#14583#14598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="e#1704#1705#0" expanded="true" />
+            <element signature="e#1762#1763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gradle-4.7/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.15.BUILD-SNAPSHOT/50f611efe5a12adfd7318530192785657b2c247f/spring-boot-1.5.15.BUILD-SNAPSHOT-sources.jar!/org/springframework/boot/SpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18802">
+          <caret line="1106" selection-start-line="1106" selection-end-line="1106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3179">
+          <caret line="196" column="22" selection-start-line="196" selection-end-line="197" />
+          <folding>
+            <element signature="e#1175#1191#0" expanded="true" />
+            <element signature="e#8127#8143#0" expanded="true" />
+            <element signature="e#8377#8393#0" expanded="true" />
+            <element signature="e#8645#8661#0" expanded="true" />
+            <element signature="e#9227#9243#0" expanded="true" />
+            <element signature="e#9889#9905#0" expanded="true" />
+            <element signature="e#10301#10317#0" expanded="true" />
+            <element signature="e#11368#11384#0" expanded="true" />
+            <element signature="e#10998#11004#0" expanded="true" />
+            <element signature="e#12218#12234#0" expanded="true" />
+            <element signature="e#13437#13453#0" expanded="true" />
+            <element signature="e#13768#13784#0" expanded="true" />
+            <element signature="e#14094#14110#0" expanded="true" />
+            <element signature="e#14333#14348#0" expanded="true" />
+            <element signature="e#14583#14598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -705,67 +912,164 @@
         <state relative-caret-position="952">
           <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
           <folding>
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-            <element signature="e#1835#1836#0" expanded="true" />
-            <element signature="e#1872#1873#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1959#1960#0" expanded="true" />
-            <element signature="e#1992#1993#0" expanded="true" />
-            <element signature="e#2048#2049#0" expanded="true" />
-            <element signature="e#2092#2093#0" expanded="true" />
-            <element signature="e#2130#2131#0" expanded="true" />
-            <element signature="e#2163#2164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding>
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-            <element signature="e#1835#1836#0" expanded="true" />
-            <element signature="e#1872#1873#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1959#1960#0" expanded="true" />
-            <element signature="e#1992#1993#0" expanded="true" />
-            <element signature="e#2048#2049#0" expanded="true" />
-            <element signature="e#2092#2093#0" expanded="true" />
-            <element signature="e#2130#2131#0" expanded="true" />
-            <element signature="e#2163#2164#0" expanded="true" />
+            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-          <folding>
-            <element signature="e#1838#1839#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-            <element signature="e#1920#1921#0" expanded="true" />
-            <element signature="e#1962#1963#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="37" column="56" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="56" />
+        <state relative-caret-position="425">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="210" column="5" lean-forward="true" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="196" column="22" selection-start-line="196" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3332">
+          <caret line="196" column="22" lean-forward="true" selection-start-line="196" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gradle-4.7/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.15.BUILD-SNAPSHOT/50f611efe5a12adfd7318530192785657b2c247f/spring-boot-1.5.15.BUILD-SNAPSHOT-sources.jar!/org/springframework/boot/SpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="1106" selection-start-line="1106" selection-end-line="1106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="409" column="40" selection-start-line="409" selection-start-column="29" selection-end-line="409" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/js/games.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/games.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/GamePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="107" column="43" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="43" />
+          <folding>
+            <element signature="e#1704#1705#0" expanded="true" />
+            <element signature="e#1762#1763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/Salvo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+          <folding>
+            <element signature="e#1561#1562#0" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
+            <element signature="e#1698#1699#0" expanded="true" />
+            <element signature="e#1744#1745#0" expanded="true" />
+            <element signature="e#1785#1786#0" expanded="true" />
+            <element signature="e#1818#1819#0" expanded="true" />
+            <element signature="e#1874#1875#0" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../JDK/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/accenture/salvo/SalvoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="227" column="89" lean-forward="true" selection-start-line="227" selection-start-column="89" selection-end-line="227" selection-end-column="89" />
+          <folding>
+            <element signature="e#1175#1191#0" expanded="true" />
+            <element signature="e#8127#8143#0" expanded="true" />
+            <element signature="e#8377#8393#0" expanded="true" />
+            <element signature="e#8645#8661#0" expanded="true" />
+            <element signature="e#9227#9243#0" expanded="true" />
+            <element signature="e#9889#9905#0" expanded="true" />
+            <element signature="e#10301#10317#0" expanded="true" />
+            <element signature="e#11368#11384#0" expanded="true" />
+            <element signature="e#10998#11004#0" expanded="true" />
+            <element signature="e#12218#12234#0" expanded="true" />
+            <element signature="e#13437#13453#0" expanded="true" />
+            <element signature="e#13768#13784#0" expanded="true" />
+            <element signature="e#14094#14110#0" expanded="true" />
+            <element signature="e#14333#14348#0" expanded="true" />
+            <element signature="e#14583#14598#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

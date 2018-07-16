@@ -22,40 +22,34 @@ public class Salvo {
 
     public Salvo(){}
 
-    public int hitsRecibidos(Ship ship) {
-
-        int hit = 0;
-        for (int i = 0; i < this.getLocations().size(); ++i) {
-                for (int j = 0; j < ship.getLocations().size(); ++j) {
-                    if (this.getLocations().get(i) == ship.getLocations().get(j)) {
-                        hit += 1;
-                    }
-                }
-            }
-        return hit;
-
-    }
-
-
-    public int hitsMissed(Set<Ship> ships) {
+    public List<String> hitsLocations(Set<Ship> ships) {
         List<String> hitLocations = new ArrayList<>();
-        int missed=0;
         for (Ship ship:ships) {
-
             for (int i = 0; i < this.getLocations().size(); ++i) {
                 for (int j = 0; j < ship.getLocations().size(); ++j) {
                     if (this.getLocations().get(i) == ship.getLocations().get(j)) {
                         hitLocations.add(getLocations().get(i));
                     }
                 }
-                missed=this.locations.size()-hitLocations.size();
             }
         }
-        return missed;
+        return hitLocations;
     }
 
 
 
+    public int hits(Ship ship) {
+        int hit=0;
+        for (int i = 0; i < this.getLocations().size(); ++i) {
+            for (int j = 0; j < ship.getLocations().size(); ++j) {
+                if (this.getLocations().get(i) == ship.getLocations().get(j)) {
+                   hit+=1;
+                }
+            }
+        }
+        return hit;
+
+    }
 
     public Salvo (int unTurno,GamePlayer unGamePlayer,List<String> ubicaciones)
     {

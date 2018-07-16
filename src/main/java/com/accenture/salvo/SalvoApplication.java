@@ -53,6 +53,7 @@ public class SalvoApplication extends SpringBootServletInitializer {
 			Game game7= new Game(Date.from(game1.getFechaCreacion().toInstant().plusSeconds(3600*6)));
 			Game game8= new Game(Date.from(game1.getFechaCreacion().toInstant().plusSeconds(3600*7)));
 
+
 			game.save(game1);
 			game.save(game2);
 			game.save(game3);
@@ -61,6 +62,8 @@ public class SalvoApplication extends SpringBootServletInitializer {
 			game.save(game6);
 			game.save(game7);
 			game.save(game8);
+
+
 
 
 			GamePlayer gameplayer1 = new GamePlayer(game1,player1);
@@ -79,6 +82,8 @@ public class SalvoApplication extends SpringBootServletInitializer {
 			GamePlayer gameplayer14 = new GamePlayer(game8,player4);
 
 
+
+
 			gamePlayer.save(gameplayer1);
 			gamePlayer.save(gameplayer2);
 			gamePlayer.save(gameplayer3);
@@ -93,6 +98,10 @@ public class SalvoApplication extends SpringBootServletInitializer {
 			gamePlayer.save(gameplayer12);
 			gamePlayer.save(gameplayer13);
 			gamePlayer.save(gameplayer14);
+
+
+
+
 
 
 			Ship ship1= new Ship("Destroyer",gameplayer1,Arrays.asList("H2","H3","H4"));
@@ -111,6 +120,7 @@ public class SalvoApplication extends SpringBootServletInitializer {
 
 
 
+
 			gameplayer1.ships.add(ship1);
 			gameplayer1.ships.add(ship2);
 			gameplayer1.ships.add(ship3);
@@ -124,6 +134,8 @@ public class SalvoApplication extends SpringBootServletInitializer {
 			gameplayer5.ships.add(ship11);
 			gameplayer6.ships.add(ship12);
 			gameplayer6.ships.add(ship13);
+
+
 
 
 			ship.save(ship1);
@@ -140,6 +152,7 @@ public class SalvoApplication extends SpringBootServletInitializer {
 			ship.save(ship12);
 			ship.save(ship13);
 
+
 			Salvo salvo1=new Salvo(1,gameplayer1,Arrays.asList("B5", "C5", "F1"));
 			Salvo salvo2=new Salvo(1,gameplayer2,Arrays.asList("B4", "B5", "B6"));
 			Salvo salvo3=new Salvo(2,gameplayer1,Arrays.asList("F2","D5"));
@@ -152,6 +165,11 @@ public class SalvoApplication extends SpringBootServletInitializer {
 			Salvo salvo10=new Salvo(1,gameplayer6,Arrays.asList("H1","H2","H3"));
 			Salvo salvo11=new Salvo(2,gameplayer5,Arrays.asList("A2","A3","D8"));
 			Salvo salvo12=new Salvo(2,gameplayer6,Arrays.asList("E1","F2","G3"));
+
+			//Salvo salvo4=new Salvo(3,gameplayer2,Arrays.asList("E1","H3","A2"));
+
+
+
 
 			gameplayer1.salvoes.add(salvo1);
 			gameplayer1.salvoes.add(salvo3);
