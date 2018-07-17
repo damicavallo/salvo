@@ -1,5 +1,7 @@
 package com.accenture.salvo;
 
+import jdk.nashorn.internal.runtime.Undefined;
+
 import javax.persistence.*;
 import java.util.*;
 
@@ -33,6 +35,18 @@ public class GamePlayer {
 
 
 
+    public GameState updateGameState() {
+        GameState actualGameState;
+        if (this.getShips().isEmpty()) {
+            actualGameState = GameState.PLACESHIPS;
+        } else {
+            actualGameState = GameState.WAITINGFOROPP;
+        }
+
+return actualGameState;
+    }
+
+
     public void setListShips(List<Ship> listShips) {
         listShips.forEach(ship -> ship.setGamePlayer(this));
         this.setShips(listShips.stream().collect(toSet()));
@@ -50,6 +64,7 @@ public class GamePlayer {
         fechaCreacion= new Date();
         this.game = game;
         this.player = player;
+        this.setGameState("UNDEFINED");
     }
     public Game getGame() {
         return game;

@@ -32,7 +32,7 @@ public class Ship {
         this.gamePlayer= unGamePlayer;
         this.locations = ubicaciones;
     }
-    public String getTipoBarco() {
+    public String getType() {
         return type;
     }
 

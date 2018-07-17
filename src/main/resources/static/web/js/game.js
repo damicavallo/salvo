@@ -234,7 +234,7 @@ function showSelf (gamePlayerData) {
     });
 
     gamePlayerData.hits.opponent.forEach(function(playTurn) {
-        playTurn.Locations.forEach(function (hitCell) {
+        playTurn.locations.forEach(function (hitCell) {
             cellID = "#" + hitCell;
             $(cellID).addClass("hitCell");
         });
@@ -385,7 +385,7 @@ function makeSalvoJSON() {
         salvoPositions.push(salvo5cellID);
     }
     salvoObject = {
-        salvoLocations : salvoPositions
+        locations : salvoPositions
     }
 
     salvoJSON = JSON.stringify(salvoObject);
@@ -407,42 +407,42 @@ function makeGameRecordTable (hitsArray, gameRecordTableId) {
 
     hitsArray.forEach(function (playTurn) {
         let hitsReport = "";
-        if (playTurn.damages.carrierHits > 0){
-            hitsReport += "Carrier " + addDamagesIcons(playTurn.damages.carrierHits, "hit") + " ";
-            if (playTurn.damages.carrier === 5){
+        if (playTurn.damages.CarrierHits > 0){
+            hitsReport += "Carrier " + addDamagesIcons(playTurn.damages.CarrierHits, "hit") + " ";
+            if (playTurn.damages.Carrier === 5){
                 hitsReport += "SUNK! ";
                 $(playerTag + 'carrierIcon').html('<img src="img/carriersunk.png">');
                 shipsAfloat--;
             }
         }
 
-        if (playTurn.damages.battleshipHits > 0){
-            hitsReport += "Battleship " + addDamagesIcons(playTurn.damages.battleshipHits, "hit") + " ";
-            if (playTurn.damages.battleship === 4){
+        if (playTurn.damages.BattleshipHits > 0){
+            hitsReport += "Battleship " + addDamagesIcons(playTurn.damages.BattleshipHits, "hit") + " ";
+            if (playTurn.damages.Battleship === 4){
                 hitsReport += "SUNK! ";
                 $(playerTag + 'battleshipIcon').html('<img src="img/battleshipsunk.png">');
                 shipsAfloat--;
             }
         }
-        if (playTurn.damages.submarineHits > 0){
-            hitsReport += "Submarine " + addDamagesIcons(playTurn.damages.submarineHits, "hit") + " ";
-            if (playTurn.damages.submarine === 3){
+        if (playTurn.damages.SubmarineHits > 0){
+            hitsReport += "Submarine " + addDamagesIcons(playTurn.damages.SubmarineHits, "hit") + " ";
+            if (playTurn.damages.Submarine === 3){
                 hitsReport += "SUNK! ";
                 $(playerTag + 'submarineIcon').html('<img src="img/submarinesunk.png">');
                 shipsAfloat--;
             }
         }
-        if (playTurn.damages.destroyerHits > 0){
-            hitsReport += "Destroyer " + addDamagesIcons(playTurn.damages.destroyerHits, "hit") + " ";
-            if (playTurn.damages.destroyer === 3){
+        if (playTurn.damages.DestroyerHits > 0){
+            hitsReport += "Destroyer " + addDamagesIcons(playTurn.damages.DestroyerHits, "hit") + " ";
+            if (playTurn.damages.Destroyer === 3){
                 hitsReport += "SUNK! ";
                 $(playerTag + 'destoyerIcon').html('<img src="img/destoyersunk.png">');
                 shipsAfloat--;
             }
         }
-        if (playTurn.damages.patrolboatHits > 0){
-            hitsReport += "Patrol Boat " + addDamagesIcons(playTurn.damages.patrolboatHits, "hit") + " ";
-            if (playTurn.damages.patrolboat === 2){
+        if (playTurn.damages.PatrolboatHits > 0){
+            hitsReport += "Patrol Boat " + addDamagesIcons(playTurn.damages.PatrolboatHits, "hit") + " ";
+            if (playTurn.damages.Patrolboat === 2){
                 hitsReport += "SUNK! ";
                 $(playerTag + 'patrolboatIcon').html('<img src="img/patrolboatsunk.png">');
                 shipsAfloat--;
